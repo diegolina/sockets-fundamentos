@@ -1,0 +1,21 @@
+{
+    "name": "08-socket-basico",
+    "version": "2.0.0",
+    "description": "aplicacion de linea de comando",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/server.js"
+    },
+    "author": "Diego Linares",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "express": "^4.17.1",
+        "socket.io": "^2.3.0",
+        "yargs": "^15.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
